@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:october_2020_practise_8/home_dismissible.dart';
-import 'package:october_2020_practise_8/home_slidable.dart';
+import 'screens/screen_exporter.dart';
 
 void main() {
   runApp(MyApp());
