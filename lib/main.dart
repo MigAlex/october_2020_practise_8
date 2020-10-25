@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:october_2020_practise_8/model/my_router.dart';
 import 'screens/screen_exporter.dart';
 
 void main() {
@@ -10,7 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeToDoList(),
+      onGenerateRoute: MyRouter.generateRoute,
+      home: HomeMain(),
     );
   }
 }
