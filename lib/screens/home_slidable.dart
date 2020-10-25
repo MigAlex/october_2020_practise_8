@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:october_2020_practise_8/utils/data_for_chat.dart';
 import 'package:october_2020_practise_8/model/chat.dart';
 
-import 'custom_widgets/custom_slidable.dart';
-import 'utils/utils.dart';
+import '../custom_widgets/custom_slidable.dart';
+import '../utils/utils.dart';
 
 class HomeSlidable extends StatefulWidget {
   @override

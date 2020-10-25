@@ -3,7 +3,7 @@ import 'package:october_2020_practise_8/custom_widgets/custom_dismissible.dart';
 import 'package:october_2020_practise_8/model/chat.dart';
 import 'package:october_2020_practise_8/utils/data_for_chat.dart';
 
-import 'utils/utils.dart';
+import '../utils/utils.dart';
 
 class HomeDismissible extends StatefulWidget {
   @override
